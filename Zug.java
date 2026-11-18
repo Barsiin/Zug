@@ -74,4 +74,22 @@ public class Zug
             System.out.println( bezeichnung + " Zug : " + + wagen + " Wagen - nicht klimatisiert" );
         }
     }
+    
+    /*
+     
+     @Test
+    public void test_printZug()
+    {
+        Zug railjet;
+        Zug regionalzug;
+        railjet = new Zug ("Railjet", 7 , true);
+        regionalzug = new Zug ( "Regionalzug" , 4 , false );
+        railjet.printZug();
+        // Railjet Zug: - 7 Wagen - klimatisiert
+        regional.printZug();
+        //Regonalzug ZUg : 4 Wagen - nicht klimatisiert
+    } 
+    
+     */
+
 }
