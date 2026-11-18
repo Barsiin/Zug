@@ -64,6 +64,14 @@ public class Zug
     
     public void printZug()
     {
-        System.out.println( bezeichnung + " Zug: " + wagen + " Wagen - " + klimatisiert );
+        if ( klimatisiert == true )
+        {
+            System.out.println( bezeichnung + " Zug : " + wagen + " Wagen -  klimatisiert");
+        }
+        
+        else 
+        {
+            System.out.println( bezeichnung + " Zug : " + + wagen + " Wagen - nicht klimatisiert" );
+        }
     }
 }
