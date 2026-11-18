@@ -61,4 +61,9 @@ public class Zug
     {
         klimatisiert = neuKlimatisiert;
     }
+    
+    public void printZug()
+    {
+        System.out.println( bezeichnung + " Zug: " + wagen + " Wagen - " + klimatisiert );
+    }
 }
